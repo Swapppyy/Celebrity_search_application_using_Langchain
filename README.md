@@ -1,6 +1,6 @@
 # Celebrity Search Application using LangChain and OpenAI
 
-This project is a demonstration of building a simple celebrity search application using LangChain, Streamlit, and OpenAI API. The application is designed to search for information about celebrities using a custom large language model (LLM) and provides a seamless user experience with a conversational interface.
+Built a simple celebrity search application using LangChain, Streamlit, and OpenAI API. The application is designed to search for information about celebrities using a custom large language model (LLM) and provides a seamless user experience with a conversational interface. You can also do a custom search for the celebrities for different timelines.
 
 ## Features
 
@@ -14,13 +14,7 @@ This project is a demonstration of building a simple celebrity search applicatio
 
 To get started with the project, follow these steps:
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/celebrity-search-langchain.git
-    cd celebrity-search-langchain
-    ```
-
-2. **Set Up the Environment**:
+1. **Set Up the Environment**:
     - Ensure you have Python 3.8.1 or higher installed.
     - Create a virtual environment:
       ```bash
@@ -32,7 +26,7 @@ To get started with the project, follow these steps:
       pip install -r requirements.txt
       ```
 
-3. **Configure OpenAI API**:
+2. **Configure OpenAI API**:
     - Obtain your OpenAI API key and add it to `constants.py`:
       ```python
       OPENAI_API_KEY = 'your-api-key-here'
@@ -67,17 +61,3 @@ Memory buffers are used to store conversation history, allowing the application 
 - **Advanced Prompt Engineering**: Implement more sophisticated prompt templates for complex queries.
 - **Custom Data Integration**: Allow users to train the model with their own datasets.
 - **Enhanced UI**: Improve the Streamlit interface for a more interactive user experience.
-
-## Contributing
-
-Contributions are welcome! Please fork this repository, create a new branch, and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to contribute.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [LangChain Documentation](https://github.com/langchain-ai/langchain)
-- [Streamlit Documentation](https://streamlit.io/)
-- [OpenAI API Documentation](https://beta.openai.com/docs/)
